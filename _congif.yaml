@@ -1,0 +1,6 @@
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  auto_ids: true
+  toc_levels: 1..6
+  syntax_highlighter: rouge
