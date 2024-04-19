@@ -4,7 +4,6 @@ title: Lezioni
 ---
 
 {% for folder in site.pages %}
-{% if folder.url contains 'anno' %}
 <h2>{{ folder.url | split: '/' | first }}</h2>
 <ul>
     {% for file in site.pages %}
@@ -13,5 +12,4 @@ title: Lezioni
     {% endif %}
     {% endfor %}
 </ul>
-{% endif %}
 {% endfor %}
