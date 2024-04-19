@@ -4,12 +4,10 @@ title: Lezioni
 ---
 
 {% for folder in site.pages %}
-<h2>{{ folder.url | split: '/' | first }}</h2>
 <ul>
-    {% for file in site.pages %}
+    <h2>{{ folder.url | split: '/' | first }}</h2>
     {% if file.url contains folder.url %}
     <li><a href="{{ site.baseurl }}{{ file.url }}">{{ file.title }}</a></li>
     {% endif %}
-    {% endfor %}
 </ul>
 {% endfor %}
