@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Traccia 11 Marzo 2024"
+date: 2024-03-11
+---
 # Sistema di Gestione Biblioteca
 
 ## Obiettivi:
