@@ -2,14 +2,12 @@
 layout: default
 title: Tracce d'esame
 ---
-
+<h1>Tracce d'esame</h1>
 {% for folder in site.pages %}
-<h2>{{ folder.title }}</h2>
+<h2>{{ folder.name }}</h2>
 <ul>
-    {% for file in site.pages %}
-    {% if file.path contains folder.path %}
+    {% for file in folder %}
     <li><a href="{{site.baseurl}}{{ file.url }}">{{ file.title }}</a></li>
-    {% endif %}
     {% endfor %}
 </ul>
 {% endfor %}
