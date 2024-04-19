@@ -1,0 +1,5 @@
+Tipo,Modello,Marca,Colore,Prezzo,Peso,Memoria,Processore,GPU,Cancellazione rumore
+Phone,iPhone 13,Apple,999,nero,200,128,Apple A15 Bionic,,
+Phone,Galaxy S21,Samsung,899,nero,200,128,Exynos 2100,,
+Accessory,Auricolari,Sony,99,nero,50,,,,true
+Accessory,Mouse,Logitech,49,nero,100,,,,false

@@ -1,0 +1,22 @@
+
+public class Cane {
+	public String nome;
+	public String razza;
+	public int anni;
+
+	public void scriviOutput() {
+		System.out.println("Nome: " + nome);
+		System.out.println("Razza: " + razza);
+		System.out.println("Eta': " + anni);		
+	}
+
+	public int getEtaInAnniUmani() {
+		int etaUmana = 0;
+		if (anni <= 2) {
+			etaUmana = anni * 11;
+		} else {
+			etaUmana = 22 + ((anni-2) * 5);
+		}
+		return etaUmana;
+	}
+}

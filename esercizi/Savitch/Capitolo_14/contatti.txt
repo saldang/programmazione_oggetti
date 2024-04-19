@@ -1,0 +1,3 @@
+bob# 555-1212# # # bob@funky.com# 
+fred# # 333-3456# # # Lover's Lane
+susan# # # 555-2135# # easy street

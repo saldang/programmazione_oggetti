@@ -1,0 +1,10 @@
+Nome = Condor della California
+Popolazione = 27
+Tasso di crescita = 0.02%
+John Smith
+
+Nome = Condor della California
+Popolazione = 27
+Tasso di crescita = 0.02%
+John Smith
+

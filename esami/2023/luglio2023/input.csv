@@ -1,0 +1,8 @@
+codice,nome,quantita,descrizione, datascadenza, materiale
+001,patate,10,patate rosse, 2023-12-31, 
+002,carote,10,carote arancioni, 2023-12-31, 
+003,mele,10,mele verdi, 2023-12-31,
+004,banane,10,banane gialle, 2023-12-31,
+005,scopa,1,scopa per pulire,,legno
+006,spazzolino,1,spazzolino per denti,,plastica
+007,pennello,1,pennello per dipingere,,legno

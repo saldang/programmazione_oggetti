@@ -1,0 +1,5 @@
+abbigliamento,P001,Maglia a maniche lunghe,29.99,L,Cotone
+accessorio,A001,Occhiali da sole,59.99,Nero
+abbigliamento,P002,Pantaloni jeans,49.99,42,Denim
+abbigliamento,P003,T-shirt stampata,19.99,M,Cotone
+accessorio,A002,Cappello invernale,39.99,Rosso

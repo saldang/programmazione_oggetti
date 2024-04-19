@@ -1,0 +1,30 @@
+Aggiunto item 1
+Aggiunto item 2
+Aggiunto item 3
+Aggiunto item 4
+Aggiunto item 5
+Aggiunto item 6
+Aggiunto item 7
+Aggiunto item 8
+Aggiunto item 9
+Aggiunto item 10
+Caricamento da file CSV biblio.csv
+Stampa items
+Aggiunto item 1
+Aggiunto item 2
+Aggiunto item 3
+Aggiunto item 4
+Aggiunto item 5
+Aggiunto item 6
+Aggiunto item 7
+Aggiunto item 8
+Aggiunto item 9
+Aggiunto item 10
+Caricamento da file CSV biblio.csv
+Stampa items
+Prestato item 1 a Mario Rossi
+Prestato item 2 a Mario Rossi
+Stampa items
+Restituzione item 1
+Stampa items
+Salvataggio prestati

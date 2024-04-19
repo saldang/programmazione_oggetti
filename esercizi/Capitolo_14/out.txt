@@ -1,0 +1,4 @@
+1 Mela
+2 Pera
+3 Banana
+4 Fragola
