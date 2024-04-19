@@ -4,3 +4,7 @@ kramdown:
   auto_ids: true
   toc_levels: 1..6
   syntax_highlighter: rouge
+
+source: docs
+
+baseurl: /programmazione_oggetti
