@@ -5,8 +5,10 @@ title: Tracce d'esame
 <h1>Tracce d'esame</h1>
 {% for folder in site.pages %}
 <h2>{{ folder.name }}</h2>
+<h3>{{ folder.title }}</h3>
+{% for subfolder in folder %}
 <ul>
-    {% for file in folder %}
+    {% for file in subfolder %}
     <li><a href="{{site.baseurl}}{{ file.url }}">{{ file.title }}</a></li>
     {% endfor %}
 </ul>
