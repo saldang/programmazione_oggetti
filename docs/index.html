@@ -2,15 +2,13 @@
 layout: default
 title: Tracce d'esame
 ---
-<h1>Tracce d'esame</h1>
+
+# Tracce d'esame
+
+## 2024
+
 {% for folder in site.pages %}
-<h2>{{ folder.name }}</h2>
-<h3>{{ folder.title }}</h3>
-{% for subfolder in folder %}
-<ul>
-    {% for file in subfolder %}
-    <li><a href="{{site.baseurl}}{{ file.url }}">{{ file.title }}</a></li>
-    {% endfor %}
-</ul>
-{% endfor %}
+{% if folder.path contains '2024' %}
+- [{{ folder.title }}]({{ folder.path }})
+{% endif %}
 {% endfor %}
