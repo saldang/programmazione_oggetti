@@ -8,6 +8,13 @@ kramdown:
   toc_levels: 1..6
   syntax_highlighter: rouge
 
-source: docs
+github:
+  private: false
+  license:
+    name: MIT
+  source:
+    branch: "master"
+    path: "/docs"
+  repository_url: "https://github.com/saldang/programmazione_oggetti"
 
 baseurl: /programmazione_oggetti

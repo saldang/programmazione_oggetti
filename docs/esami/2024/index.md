@@ -8,7 +8,9 @@ permalink: /esami/2024/
 
 {% for folder in site.pages %}
 {% if folder.dir contains 2024 %}
+{% if folder.name != 'index.md' %}
 
 - [{{folder.title}}]({{site.baseurl}}{{folder.url}})
+  {% endif %}
   {% endif %}
   {% endfor %}
