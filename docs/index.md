@@ -1,23 +1,15 @@
 ---
 layout: default
-title: Tracce d'esame
+title: Materiale del corso
 ---
 
-# Tracce d'esame
+# Materiale del corso
 
-{% for folder in site.pages %}
-{% if folder.path contains '2024' %}
+## Lezioni
 
-## 2024
+## Esercitazioni
 
-- [{{folder.title}}]({{site.baseurl}}{{folder.url}})
-  {% endif %}
+## Tracce d'esame
 
-{% if folder.path contains '2023' %}
-
-## 2023
-
-- [{{folder.title}}]({{site.baseurl}}{{folder.url}})
-  {% endif %}
-
-  {% endfor %}
+- [2024](/esami/2024/)
+- [2023](/esami/2023/)
