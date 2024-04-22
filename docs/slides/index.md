@@ -6,14 +6,11 @@ permalink: /slides/
 
 ## {{page.title}}
 
-{% for folder in site.pages %}
-{{ folder.dir }}
-{{ folder.name }}
+{% for slide in site.static_files %}
 
-{% if folder.dir contains slides %}
-{% if folder.name != 'index.md' %}
+{% if slide.path contains slides %}
 
-- [{{folder.name}}]({{site.baseurl}}{{folder.url}})
-  {% endif %}
+- [{{folder.name}}]({{site.baseurl}}{{slide.path}})
+
   {% endif %}
   {% endfor %}
