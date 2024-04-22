@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tracce d'esame
 ---
 
@@ -9,6 +9,7 @@ title: Tracce d'esame
 
 {% for folder in site.pages %}
 {% if folder.path contains '2024' %}
+
 - [{{ folder.title }}]({{ folder.path }})
-{% endif %}
-{% endfor %}
+  {% endif %}
+  {% endfor %}
