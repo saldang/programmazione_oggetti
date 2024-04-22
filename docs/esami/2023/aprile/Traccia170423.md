@@ -1,6 +1,4 @@
-# Traccia
-
-## 17 Aprile 2023
+# Traccia 17 Aprile 2023
 
 ### Programmazione ad Oggetti
 
@@ -8,16 +6,16 @@ Implementare la logia di un distributore automatico in Java con le seguenti funz
 
 1. Il distributore puo essere caricato con un file csv (Comma Separated Value) denominato stock.csv che contiene i prodotti da vendere. Il file stock.csv ha un prodotto per riga e i campi sono separati da virgole. Il primo campo è il codice identificativo del prodotto, il secondo è il nome del prodotto, il terzo è il prezzo del prodotto e il quarto è il numero di pezzi disponibili. Il file stock.csv ha il seguente formato:
 
-    ```csv
-    A1,Acqua,1.5,10
-    A2,Latte,1.0,10
-    A3,The,1.0,10
-    A4,Caffè,1.5,10
-    A6,CocaCola,2.0,10
-    A7,Sprite,2.0,10
-    A8,Aranciata,2.0,10
-    A9,AcquaMinerale,1.5,10
-    ```
+   ```csv
+   A1,Acqua,1.5,10
+   A2,Latte,1.0,10
+   A3,The,1.0,10
+   A4,Caffè,1.5,10
+   A6,CocaCola,2.0,10
+   A7,Sprite,2.0,10
+   A8,Aranciata,2.0,10
+   A9,AcquaMinerale,1.5,10
+   ```
 
 2. Il distributore accetta monete da 1, 2, 5, 10, 20, 50 centesimi e da 1 e 2 euro. Il distributore deve inoltre stampare a video il valore totale delle monete inserite.
 

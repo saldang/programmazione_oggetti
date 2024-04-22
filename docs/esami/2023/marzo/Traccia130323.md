@@ -1,6 +1,4 @@
-# 130323
-
-## Traccia 13 Marzo 2023
+# Traccia 13 Marzo 2023
 
 Implementare una classe Conto che ha le seguenti informazioni:
 
@@ -10,7 +8,7 @@ Implementare una classe Conto che ha le seguenti informazioni:
 
 e che permette di tenere traccia delle entrate/uscite (movimenti), permetta di categorizzarle e di aggiornare un file che viene usato come memoria/archivio.
 
-Un *movimento* ha i seguenti attributi:
+Un _movimento_ ha i seguenti attributi:
 
 - Data
 - Descrizione

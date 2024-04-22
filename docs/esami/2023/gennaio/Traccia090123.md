@@ -1,6 +1,4 @@
-# Traccia
-
-## 9 Gennaio 2023
+# Traccia 9 Gennaio 2023
 
 ### Programmazione ad Oggetti
 

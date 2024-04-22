@@ -1,19 +1,17 @@
-# Traccia
+# Traccia 30 Gennaio 2023
 
-## 30 Gennaio 2023
-
-### Programmazione ad Oggetti
+## Programmazione ad Oggetti
 
 Si scriva un programma Java per la gestione e categorizzazione dei personaggi nel manga "One Piece".
 
 Si deve creare:
 
-* una classe **Ciurma** con attributi: Nome, Navi, Pirati
-* una classe **Pirata** con i seguenti attributi:Nome originale,Soprannome,Ruolo,Sesso,Eta,Altezza,Taglia
-* una classe **Nave** con i seguenti attributi: Nome, Tipo
-* una classe **OnePiece** dove si implementa il main
+- una classe **Ciurma** con attributi: Nome, Navi, Pirati
+- una classe **Pirata** con i seguenti attributi:Nome originale,Soprannome,Ruolo,Sesso,Eta,Altezza,Taglia
+- una classe **Nave** con i seguenti attributi: Nome, Tipo
+- una classe **OnePiece** dove si implementa il main
 
-Contenuto file ```onepiece.csv```
+Contenuto file `onepiece.csv`
 
 ```csv
 Nome originale,Soprannome,Ruolo,Sesso,Eta,Altezza,Taglia
@@ -34,8 +32,8 @@ Per la creazione dei pirati bisogna leggere un file csv chiamato onepiece.csv (c
 
 Il programma deve stampare a video una tabella dei personaggi
 
-Il programma deve stampare su file solo i personaggi maschili con le informazioni separate da virgola(```male_op.csv```)
+Il programma deve stampare su file solo i personaggi maschili con le informazioni separate da virgola(`male_op.csv`)
 
-Il programma deve stampare su file i Nomi dei personaggi e la taglia in ordine decrescente (```big_bounty.txt```)
+Il programma deve stampare su file i Nomi dei personaggi e la taglia in ordine decrescente (`big_bounty.txt`)
 
 Strutturare il programma con file separati per classe.

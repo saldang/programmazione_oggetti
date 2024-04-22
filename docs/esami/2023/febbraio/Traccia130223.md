@@ -1,6 +1,4 @@
-# Traccia
-
-## 13 Febbraio 2023
+# Traccia 13 Febbraio 2023
 
 ### Programmazione ad Oggetti
 

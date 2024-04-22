@@ -1,10 +1,4 @@
-
-# Traccia (SQn2bB9S)
-
-[Link pubblico alla traccia][def]
-
-
-## 19 Maggio 2023
+# Traccia 19 Maggio 2023
 
 ### Programmazione ad Oggetti
 
@@ -15,21 +9,25 @@ In questo esame di programmazione ad oggetti, verrà richiesto di sviluppare un 
 Requisiti:
 
 1. Creare una classe astratta chiamata "MaterialeBibliotecario" con i seguenti attributi:
+
    - Titolo (stringa): il titolo del materiale bibliotecario.
    - AnnoPubblicazione (intero): l'anno di pubblicazione del materiale.
    - NumeroCopie (intero): il numero di copie disponibili in biblioteca.
    - NumeroCopieInPrestito (intero): il numero di copie attualmente in prestito.
 
 2. Creare le seguenti classi derivate da "MaterialeBibliotecario":
+
    - Libro: rappresenta un libro, con l'aggiunta degli attributi "autore" e "genere".
    - Rivista: rappresenta una rivista, con l'aggiunta dell'attributo "numero".
 
 3. Creare una classe "Prestito" che rappresenti un prestito di un materiale bibliotecario. La classe dovrà avere i seguenti attributi:
+
    - Materiale (istanza di "MaterialeBibliotecario"): il materiale bibliotecario oggetto del prestito.
    - DataInizio (oggetto di tipo "Date"): la data di inizio del prestito.
    - DataFine (oggetto di tipo "Date"): la data di fine del prestito.
 
 4. Implementare i seguenti metodi nelle classi:
+
    - Nella classe "MaterialeBibliotecario":
      - Costruttore che inizializza gli attributi.
      - Metodi getter e setter per gli attributi.
@@ -90,8 +88,6 @@ Cosa vuoi fare?
 
 ```
 
-
-
 Note aggiuntive:
 
 - Si richiede di utilizzare il concetto di polimorfismo quando possibile, ad esempio nel caso di una lista di oggetti "MaterialeBibliotecario" che può contenere sia libri che riviste.
@@ -105,6 +101,5 @@ Suggerimenti:
 - Sviluppare il programma in modo incrementale, implementando una funzionalità alla volta e verificandone il corretto funzionamento prima di passare alla successiva.
 
 Buon lavoro!
-
 
 [def]: https://rentry.co/8p5sp
