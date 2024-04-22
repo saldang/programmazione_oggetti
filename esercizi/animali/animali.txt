@@ -1,4 +1,0 @@
-leone 5 50
-tigre 7 45
-elefante 8 40
-giraffa 9 35
