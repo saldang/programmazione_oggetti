@@ -8,10 +8,6 @@ Libro di testo: Walter Savitch, “Programmazione di base e avanzata Java”, Se
 
 [Slides]({{site.baseurl}}/slides/)
 
-### 2024
-
-### 2023
-
 ## Esercitazioni
 
 ## Esami
