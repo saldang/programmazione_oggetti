@@ -1,6 +1,6 @@
-theme: jekyll-theme-minimal
 title: Programmazioni ad Oggetti
 description: Documentazione del corso di Programmazione ad Oggetti
+
 markdown: kramdown
 kramdown:
   input: GFM # GitHub Flavored Markdown
