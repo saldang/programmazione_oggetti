@@ -17,4 +17,10 @@ github:
     path: "/docs"
   repository_url: "https://github.com/saldang/programmazione_oggetti"
 
+defaults:
+  - scope:
+      path: assets/slides
+    values:
+      pdf: true
+
 baseurl: /programmazione_oggetti

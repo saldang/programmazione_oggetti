@@ -6,11 +6,7 @@ permalink: /slides/
 
 ## {{page.title}}
 
-{% for slide in site.static_files %}
-
-{% if slide.path contains slides %}
-
-- [{{folder.name}}]({{site.baseurl}}{{slide.path}})
-
-  {% endif %}
-  {% endfor %}
+{% assign pdf_files = site.static_files | where: "pdf", true %}
+{% for slide in pdf_files %}
+{{ slide.path }}
+{% endfor %}
