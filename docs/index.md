@@ -2,6 +2,16 @@
 
 ## Lezioni
 
+Slides pdf ereditare ed aggiornate a partire dalle slide del prof. Massimo Ficco, più alcune slide extra dal libro di testo.
+
+Libro di testo: Walter Savitch, “Programmazione di base e avanzata Java”, Seconda edizione, Pearson
+
+[Slides]({{site.baseurl}}/slides/)
+
+### 2024
+
+### 2023
+
 ## Esercitazioni
 
 ## Esami
