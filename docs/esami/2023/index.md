@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: Tracce d'esame
-date: 2023-04-22
+permalink: /esami/2023/
 ---
 
 # Tracce d'esame 2023

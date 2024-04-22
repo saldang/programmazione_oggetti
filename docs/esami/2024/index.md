@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: Tracce d'esame
-date: 2024-04-22
+permalink: /esami/2024/
 ---
 
 # Tracce d'esame 2024
