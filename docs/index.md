@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Materiale del corso
-permalink: /programmazione_oggetti
 ---
 
 # Materiale del corso
