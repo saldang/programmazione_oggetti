@@ -8,6 +8,5 @@ title: Tracce d'esame
 {% for folder in site.pages %}
 
 - [{{folder.title}}]({{site.baseurl}}{{folder.url}})
-  {% endif %}
 
   {% endfor %}

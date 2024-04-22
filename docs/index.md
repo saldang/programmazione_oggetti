@@ -11,5 +11,5 @@ title: Materiale del corso
 
 ## Tracce d'esame
 
-- [2024](/esami/2024/)
-- [2023](/esami/2023/)
+- [2024]({{site.baseurl}}/esami/2024/)
+- [2023]({{site.baseurl}}/esami/2023/)
