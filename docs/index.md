@@ -1,8 +1,3 @@
----
-layout: page
-title: Materiale del corso
----
-
 # Materiale del corso
 
 ## Lezioni
