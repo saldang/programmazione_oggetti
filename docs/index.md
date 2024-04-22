@@ -12,5 +12,9 @@ title: Tracce d'esame
 
 - {{folder.title}}
 - {{folder.path}}
+- {{folder.url}}
+- {{folder.content}}
+- {{folder.dir}}
+- {{folder.name}}
   {% endif %}
   {% endfor %}
