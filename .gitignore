@@ -1,6 +1,6 @@
-
-./esami
-./esercizi
+### ignore folder ###
+esami/*
+esercizi/*
 
 ### Java ###
 # Compiled class file
