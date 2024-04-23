@@ -6,7 +6,9 @@ permalink: /slides/
 
 ## {{page.title}}
 
-{% for slide in site.static_files %}
-Prova:
-{{ slide.path }}
+{% assign pdf_files = site.static_files | where: "pdf", true %}
+{% for slide in pdf_files %}
+
+- [{{ slide.name }}]({{ slide.path }})
+
 {% endfor %}
