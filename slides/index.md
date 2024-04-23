@@ -11,7 +11,7 @@ Here are the slides for the course. They are in PDF format.
 {% for slide in site.static_files %}
 {% if slide.path contains 'assets' %}
 
-- [{{ slide.name }}]({{ slide.path }})
+- [{{ slide.name }}]({{site.baseurl}}{{slide.url}})
 {% endif %}
 {% endfor%}
 <!-- 
