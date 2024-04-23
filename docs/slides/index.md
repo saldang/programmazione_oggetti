@@ -8,5 +8,6 @@ permalink: /slides/
 
 {% assign pdf_files = site.static_files | where: "pdf", true %}
 {% for slide in pdf_files %}
+Prova:
 {{ slide.path }}
 {% endfor %}

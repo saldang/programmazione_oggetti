@@ -19,7 +19,7 @@ github:
 
 defaults:
   - scope:
-      path: assets/slides
+      path: assets/slides/
     values:
       pdf: true
 
