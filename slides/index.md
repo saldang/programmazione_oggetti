@@ -6,7 +6,7 @@ permalink: /slides/
 
 ## {{page.title}}
 
-{% assign slides=site.static_files | where_exp:"slide","slide.path contains 'assets'" | sort: "name" %}
+{% assign slides=site.static_files | where_exp:"slide","slide.path contains 'assets'" | sort: 'name' %}
 Inspect:
 {{ slides | inspect }}
 
