@@ -1,4 +1,4 @@
-# Traccia 25 Settembre 2024
+# Traccia 15 Ottobre 2024
 
 ## Sistema di Gestione Corsi ed Esami
 
