@@ -34,9 +34,9 @@ Creare una classe di test StudenteTest che esegua i seguenti test:
 - Calcolo della media dei voti.
 - Salvataggio degli esami su un file di log.
 
-**Buon lavoro!
-**
-File di output per i Corsi (corsi.txt):
+**Buon lavoro!**
+
+File per i Corsi (corsi.txt):
 
 ```plaintext
 CorsoTeorico,001,Programmazione,9,Prof. Rossi,Scritto
