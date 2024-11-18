@@ -10,3 +10,4 @@ kramdown:
 
 baseurl:
 url: https://saldang.github.io/programmazione_oggetti/
+show_downloads: true
