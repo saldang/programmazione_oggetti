@@ -6,12 +6,13 @@ permalink: /esercizi/AA24_25/
 
 ## {{page.title}}
 
-{% for folder in site.pages %}
-{% if folder.dir contains AA24_25 %}
-{% if folder.name != 'index.md' %}
 site.baseurl
 folder.url
 folder.name
+
+{% for folder in site.pages %}
+{% if folder.dir contains AA24_25 %}
+{% if folder.name != 'index.md' %}
 
 - [{{folder.title}}]({{site.baseurl}}{{folder.url}}{{folder.name}})
   {% endif %}
