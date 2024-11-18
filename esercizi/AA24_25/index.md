@@ -10,18 +10,6 @@ permalink: /esercizi/AA24_25/
 
 {% for folder in site.pages %}
 
-{{folder.url}}
-{{folder.name}}
 {{folder.dir}}
-{{folder.title}}
-{{folder.url}}
-{{site.baseurl}}
-{{site.pages}}
-{{site.pages.url}}
-{{site.pages.name}}
-{{site.pages.dir}}
-{{site.pages.title}}
-{{site.pages.url}}
 
-- [{{folder.title}}]({{site.baseurl}}{{folder.url}})
-  {% endfor %}
+{% endfor %}
