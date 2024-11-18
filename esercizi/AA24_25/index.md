@@ -9,7 +9,7 @@ permalink: /esercizi/AA24_25/
 {{site.baseurl}}
 
 {% for folder in site.pages %}
-{% if folder.dir contains AA24 %}
+{% if folder.dir contains esercizi %}
 {{folder.dir}}
 {% endif %}
 {% endfor %}
