@@ -6,10 +6,11 @@ permalink: /esercizi/AA24_25/
 
 ## {{page.title}}
 
-{{site.baseurl}}
-
 {% for folder in site.pages %}
 {% if folder.dir contains page.permalink %}
-{{folder.dir}}
-{% endif %}
-{% endfor %}
+{% if folder.name != 'index.md' %}
+
+- [{{folder.title}}]({{site.baseurl}}{{folder.url}})
+  {% endif %}
+  {% endif %}
+  {% endfor %}
