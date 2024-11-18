@@ -9,5 +9,7 @@ permalink: /esercizi/AA24_25/
 {{site.baseurl}}
 
 {% for folder in site.pages %}
+{% if folder.dir contains page.permalink %}
 {{folder.dir}}
+{% endif %}
 {% endfor %}
