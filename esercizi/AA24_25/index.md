@@ -10,9 +10,6 @@ permalink: /esercizi/AA24_25/
 
 {% for folder in site.pages %}
 {% if folder.dir contains AA24 %}
-{% if folder.name != 'index.md' %}
-
-- [{{folder.title}}]({{site.baseurl}}{{folder.url}})
-  {% endif %}
-  {% endif %}
-  {% endfor %}
+{{folder.dir}}
+{% endif %}
+{% endfor %}
