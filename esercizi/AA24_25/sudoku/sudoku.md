@@ -1,4 +1,10 @@
-# Sudoku
+---
+layout: page
+title: Sudoku
+permalink: /esercizi/AA24_25/sudoku/
+---
+
+## {{page.title}}
 
 Il Sudoku è un gioco ampiamente diffuso basato sulla logica che utilizza un array di 9x9 caselle suddivise in 3x3 sotto-array. Il solutore deve riempire le caselle bianche inserendo numeri che vanno da 1 a 9, in modo che la cifra inserita non si ripeta né nella riga, né nella colonna e neanche nel sottogruppo cui appartiene la cifra. All’ini­zio alcune celle hanno già un valore e non possono essere modificate. Per esempio, la figura seguente rappresenta lo schema iniziale di un Sudoku:
 
@@ -35,3 +41,8 @@ e i seguenti metodi:
 - reset – imposta a zero tutte le celle che non contengono valori immutabili.
 
 Scrivere un metodo main nella classe Sudoku che crea un’istanza di Sudoku e imposta la configurazione iniziale. Quindi utilizzare un ciclo per permettere all’utente di giocare. Visualizzare la configurazione corrente e chiedere all’utente una riga, una colonna e un valore. Aggiornare la scacchiera di gioco e visualizzarla. Si avvisi l’utente qualora la nuova configurazione non rispetti le regole del gioco. Visualizzare un messaggio quando il gioco è stato completato correttamente. In questo caso, sia verificaGioco sia pieno devono restituire true. Si deve dare all’utente la possibilità di riavviare il gioco e di visualizzare i valori che possono essere inseriti nelle celle.
+
+File java:
+
+- [Sudoku.java](./Sudoku.java)
+- [App.java](./App.java)

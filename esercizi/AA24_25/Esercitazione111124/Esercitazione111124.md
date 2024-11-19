@@ -1,4 +1,8 @@
-# Esercitazione 11 Novembre 2024
+---
+layout: page
+title: Esercitazione 11 Novembre 2024
+permalink: /esercizi/AA24_25/Esercitazione111124/
+---
 
 ## Sistema di Gestione di una Scuola
 
@@ -32,7 +36,6 @@ Creare un sistema che gestisca studenti, insegnanti e corsi all’interno di una
 
 1. Polimorfismo: utilizza ArrayList<Persona> per contenere sia Studente che Insegnante, e implementa un metodo per stampare i dettagli di ciascuno tramite visualizzaDettagli().
 
-
 ### Requisiti Aggiuntivi
 
 1. Ricerca e Filtraggio: implementa un metodo nella classe Scuola che restituisce la lista degli studenti con una media voti sopra una certa soglia.
@@ -44,3 +47,13 @@ Al termine, il sistema potrebbe stampare dettagli come:
 • Dettagli di un corso specifico con l’insegnante assegnato e gli studenti iscritti.
 • Report di fine anno con le medie voti per corso e per studente.
 • Elenco degli studenti con media voti sopra una certa soglia.
+
+File java:
+
+- [Scuola.java](./Scuola.java)
+- [Corso.java](./Corso.java)
+- [Valutabile.java](./Valutabile.java)
+- [Persona.java](./Persona.java)
+- [Studente.java](./Studente.java)
+- [Insegnante.java](./Insegnante.java)
+- [GestioneScuola.java](./GestioneScuola.java)

@@ -1,8 +1,17 @@
-// Scrivere un programma che legga l’ammontare di un pagamento mensile per un’ipoteca e l’ammontare ancora dovuto (il debito rimanente). Il programma deve quindi visualizzare la parte di pagamento che serve per coprire gli interessi a debito e l’ammontare che serve per ridurre il debito. Si supponga che il tasso di interesse annuo sia del 7.49 %. Si utilizzi una costante per memorizzare il tasso di interesse. Si noti che i pagamenti vengono fatti mensilmente: l’interesse è quindi un dodicesimo del tasso di interesse annuale del 7.49 %. 
+---
+layout: page
+title: Capitolo 2 Esercizio 3
+permalink: /esercizi/AA24_25/Cap2_3/
+---
 
+## {{page.title}}
+
+Scrivere un programma che legga l’ammontare di un pagamento mensile per un’ipoteca e l’ammontare ancora dovuto (il debito rimanente). Il programma deve quindi visualizzare la parte di pagamento che serve per coprire gli interessi a debito e l’ammontare che serve per ridurre il debito. Si supponga che il tasso di interesse annuo sia del 7.49 %. Si utilizzi una costante per memorizzare il tasso di interesse. Si noti che i pagamenti vengono fatti mensilmente: l’interesse è quindi un dodicesimo del tasso di interesse annuale del 7.49 %.
+
+```java
 import java.util.Scanner;
 
-public class Cap2_2 {
+public class Cap2_3 {
 
     public static void main(String[] args) {
         Scanner tastiera = new Scanner(System.in);
@@ -44,4 +53,6 @@ public class Cap2_2 {
         System.out.println("Ciao!");
         tastiera.close();
     }
+
 }
+```

@@ -1,38 +1,46 @@
+
 import java.util.Scanner;
 
-/**
- * Cap2_3
- */
 public class Cap2_3 {
 
     public static void main(String[] args) {
         Scanner tastiera = new Scanner(System.in);
-
-        System.out.println("Inserisci un intero(string):");
-        String input = tastiera.next();
-
-        for (int i = 0; i < input.length(); i++)
-            System.out.println(input.charAt(i));
-
-        System.out.println("Inserisci un intero:");
-
-        int res;
-        int num = tastiera.nextInt();
-        int mod = 10;
+        final double interesse;
+        // final double ipoteca = 150000;
+        System.out.println("Inserisci l'ammontare dell'ipoteca:");
+        double ipoteca = tastiera.nextDouble();
+        System.out.println("Inserisci il tasso di interesse:");
+        interesse = tastiera.nextDouble();
+        double debito = ipoteca;
+        // boolean esci = false;
         int count = 0;
-        res = num;
-        while (res != 0) {
-            res = res / mod;
+
+        // while (!esci) {
+        // System.out.println("Vuoi inserire un pagamento?(Y/N):");
+        // String scelta = tastiera.next();
+        // if (scelta.equalsIgnoreCase("n")) {
+        // break;
+        // } else if (scelta.equalsIgnoreCase("y")) {
+        // esci = false;
+        // } else {
+        // System.out.println("Scelta errata");
+        // }
+
+        System.out.println("Inserisci l'ammontare da versare (eg. 1250.50):");
+        double pagamentoMensile = tastiera.nextDouble();
+
+        while (debito > 0) {
+            System.out.println(debito);
+
+            debito -= pagamentoMensile;
+            double interesseMensile = debito * ((interesse / 100) / 12);
+            debito += debito * ((interesse / 100) / 12);
+            System.out.println(interesseMensile);
+            System.out.println(debito);
             count++;
         }
-
-        mod = (int) Math.pow(mod, count - 1);
-        for (int i = 0; i < count; i++) {
-            System.out.println((num / mod));
-            num = num % mod;
-            mod /= 10;
-
-        }
-
+        System.out.println("Hai impiegato " + count / 12 + " anni per estinguere l'ipoteca!");
+        System.out.println("Ciao!");
+        tastiera.close();
     }
 }

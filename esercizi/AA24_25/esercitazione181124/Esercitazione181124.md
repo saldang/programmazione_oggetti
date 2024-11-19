@@ -1,4 +1,8 @@
-# Esercitazione 18/11/24
+---
+layout: page
+title: Esercitazione 18 Novembre 2024
+permalink: /esercizi/AA24_25/Esercitazione181124/
+---
 
 ## **Esercizio 1: Rubrica Contatti (File di Testo e Eccezioni)**
 
@@ -14,6 +18,13 @@ Creare un’applicazione che gestisce una rubrica, leggendo e scrivendo contatti
    - Gestisci eccezioni comuni come `IOException` durante la lettura/scrittura del file.
 4. **Interazione con l’utente**:
    - Permetti all’utente di aggiungere contatti tramite input e di salvare o caricare i dati dal file.
+
+File java:
+
+- [Contatto.java](./Contatto.java)
+- [Rubrica.java](./Rubrica.java)
+- [Esercizio1.java](./Esercizio1.java)
+- [ContattoDuplicatoException.java](./ContattoDuplicatoException.java)
 
 ---
 
@@ -32,6 +43,14 @@ Creare un sistema che memorizza i dati degli studenti in un file binario.
    - Gestisci eccezioni come `FileNotFoundException` o `ClassNotFoundException` durante la lettura/scrittura.
 4. **Interazione con l’utente**:
    - Permetti di gestire l’elenco studenti e memorizzare i dati in un file binario.
+
+File java:
+
+- [Studente.java](./Studente.java)
+- [Registro.java](./Registro.java)
+- [StudenteNonTrovatoException.java](./StudenteNonTrovatoException.java)
+- [StudenteDuplicatoException.java](./StudenteDuplicatoException.java)
+- [Esercizio2.java](./Esercizio2.java)
 
 ---
 

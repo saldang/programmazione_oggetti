@@ -1,6 +1,17 @@
+---
+layout: page
+title: Capitolo 2 Esercizio 1
+permalink: /esercizi/AA24_25/Cap2_2/
+---
+
+## {{page.title}}
+
+[Visualizza Cap2_2.java](./Cap2_2.java)
+
+```java
 import java.util.Scanner;
 
-public class Cap2_1 {
+public class Cap2_2 {
     public static void main(String[] args) {
         Scanner tastiera = new Scanner(System.in);
 
@@ -19,3 +30,4 @@ public class Cap2_1 {
 
     }
 }
+```

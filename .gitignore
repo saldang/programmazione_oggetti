@@ -1,6 +1,8 @@
 ### ignore folder ###
 _esami/
 _esercizi/
+_site/
+.vscode/
 
 ### Java ###
 # Compiled class file
