@@ -45,3 +45,14 @@ Harley-Davidson,Sportster S,2022,motocicletta,,falso,1252,falso,falso,nero
 Trek,Domane SL 6,2023,bicicletta,,falso,,falso,vero,grigio
 Cannondale,CAAD13,2022,bicicletta,,falso,,falso,falso,bianco
 ```
+
+File Java (modificateli per completare le classi con le caratteristiche specifiche per classe):
+
+- [Veicolo](./Veicolo.java)
+- [Automobile](./Automobile.java)
+- [Motocicletta](./Motocicletta.java)
+- [Bicicletta](./Bicicletta.java)
+- [Guidabile](./Guidabile.java)
+- [Repository Veicoli](./RepositoryVeicoli.java)
+- [GestoreVeicoli](./GestoreVeicoli.java)
+
