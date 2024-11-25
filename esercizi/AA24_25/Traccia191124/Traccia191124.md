@@ -3,21 +3,25 @@
 ## Esame di Programmazione ad Oggetti
 
 1. **Gerarchia dei Veicoli**
+
    - Crea una classe astratta `Veicolo` con proprietà per `marca`, `modello`, `anno` e `colore`.
    - Implementa metodi astratti `calcolaValoreMercato()` e `visualizzaInformazioniVeicolo()`.
    - Crea classi concrete di veicoli `Automobile`, `Motocicletta` e `Bicicletta` che estendono la classe `Veicolo`.
-   - Implementa i metodi astratti in ciascuna classe concreta di veicoli, tenendo conto dei fattori specifici che influenzano il valore di mercato (ogni anno fa scendere il valore di mercato  di una percentuale variabile a seconda del tipo di veicolo) e le informazioni da visualizzare per ogni tipo di veicolo.
+   - Implementa i metodi astratti in ciascuna classe concreta di veicoli, tenendo conto dei fattori specifici che influenzano il valore di mercato (ogni anno fa scendere il valore di mercato di una percentuale variabile a seconda del tipo di veicolo) e le informazioni da visualizzare per ogni tipo di veicolo.
 
 2. **Interfaccia Guidabile**
+
    - Crea un'interfaccia chiamata `Guidabile` con metodi `accelera(double quantita)`, `frena(double quantita)` e `getTotaleDistanza()`.
    - Modifica le classi `Automobile` e `Motocicletta` per implementare l'interfaccia `Guidabile`.
    - Implementa i metodi dell'interfaccia in ciascuna classe, tenendo traccia della distanza totale percorsa da ciascun veicolo.
 
 3. **Repository dei Veicoli**
+
    - Crea una classe `RepositoryVeicoli` che gestisce una lista di oggetti `Veicolo`.
    - Implementa metodi per aggiungere, rimuovere e recuperare veicoli dal repository.
 
 4. **Input/Output su File e Serializzazione**
+
    - Crea una classe `EccezioneSerializzazioneVeicoli` che estende `Exception`.
    - Scrivi un metodo per serializzare una lista di oggetti `Veicolo` in un file binario.
    - Scrivi un metodo leggere una lista di oggetti `Veicolo` da un file csv.
