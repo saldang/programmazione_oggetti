@@ -55,4 +55,3 @@ File Java (modificateli per completare le classi con le caratteristiche specific
 - [Guidabile](./Guidabile.java)
 - [Repository Veicoli](./RepositoryVeicoli.java)
 - [GestoreVeicoli](./GestoreVeicoli.java)
-
