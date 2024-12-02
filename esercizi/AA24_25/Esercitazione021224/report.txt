@@ -1,0 +1,16 @@
+ID: DIP001
+Nome: Mario Rossi
+Email: mario.rossi@unicampania.it
+Ruolo: Segretario
+Stipendio: 2000.0
+ID: DOC001
+Nome: Mario Verdi
+Email: mario.verdi@unicampania.it
+Ruolo: Associato
+Stipendio: 2000.0
+Materia: Programmazione Oggetti
+ID: S001
+Nome: Giuseppe Rossi
+Email: giuseppe.rossi@studente.unicampania.it
+Classe: 2A
+MediaVoti: 26.9

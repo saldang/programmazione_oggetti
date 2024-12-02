@@ -36,18 +36,20 @@ public class GestioneUtenti {
         }
     }
 
-    public void salvaTuttiGliUtenti(String path) {
+    public void salvaTuttiGliUtenti() {
+        String path = "./utenti";
+        creaCartella(path);
         for (Utente utente : utenti) {
             try {
                 if (utente instanceof Studente) {
                     creaCartella(path + "/studenti");
                     utente.generaScheda(path + "/studenti");
-                } else if (utente instanceof Dipendente) {
-                    creaCartella(path + "/dipendenti");
-                    utente.generaScheda(path + "/dipendenti");
                 } else if (utente instanceof Docente) {
                     creaCartella(path + "/docenti");
                     utente.generaScheda(path + "/docenti");
+                } else if (utente instanceof Dipendente) {
+                    creaCartella(path + "/dipendenti");
+                    utente.generaScheda(path + "/dipendenti");
                 } else
                     continue;
 

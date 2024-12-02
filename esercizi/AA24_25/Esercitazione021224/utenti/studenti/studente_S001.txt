@@ -1,0 +1,5 @@
+ID:S001
+Nome:Giuseppe Rossi
+Email:giuseppe.rossi@studente.unicampania.it
+Classe:2A
+MediaVoti:26.9

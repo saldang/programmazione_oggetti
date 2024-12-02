@@ -2,6 +2,9 @@
 package ui;
 
 import javax.swing.*;
+
+import java.awt.FlowLayout;
+import java.awt.LayoutManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import service.GestioneUtenti;
@@ -15,7 +18,7 @@ public class UI {
         // Creazione del frame principale
         JFrame frame = new JFrame("Gestione Utenti");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(500, 400);
+        frame.setSize(600, 500);
 
         // Creazione del pannello principale
         JPanel panel = new JPanel();
@@ -27,7 +30,9 @@ public class UI {
     }
 
     private static void placeComponents(JPanel panel) {
-        panel.setLayout(null);
+        FlowLayout lm = new FlowLayout();
+
+        panel.setLayout(lm);
 
         // Etichetta e campo di testo per il nome utente
         JLabel userLabel = new JLabel("Nome:");
@@ -47,15 +52,44 @@ public class UI {
         emailText.setBounds(100, 50, 165, 25);
         panel.add(emailText);
 
+        ButtonGroup radioButton = new ButtonGroup();
+        JRadioButton studentRadio = new JRadioButton("Studente");
+        studentRadio.setBounds(10, 70, 165, 25);
+        JRadioButton docenteRadio = new JRadioButton("Docente");
+        docenteRadio.setBounds(70, 70, 165, 25);
+
+        JRadioButton dipRadio = new JRadioButton("Dipendente");
+        dipRadio.setBounds(130, 70, 165, 25);
+
+        radioButton.add(studentRadio);
+        radioButton.add(docenteRadio);
+        radioButton.add(dipRadio);
+
+        panel.add(studentRadio);
+        panel.add(docenteRadio);
+        panel.add(dipRadio);
+
         // Etichetta e campo di testo per il ruolo
         JLabel roleLabel = new JLabel("Ruolo:");
         roleLabel.setBounds(10, 80, 80, 25);
         panel.add(roleLabel);
 
-        JTextField roleText = new JTextField(20);
-        roleText.setBounds(100, 80, 165, 25);
-        panel.add(roleText);
+        // JTextField roleText = new JTextField(20);
+        // roleText.setBounds(100, 80, 165, 25);
+        // panel.add(roleText);
 
+        JList roleList = new JList<>();
+
+        if (studentRadio.isSelected())
+            roleList.setVisible(false);
+
+        if (docenteRadio.isSelected()) {
+            roleList.add(new JLabel("Ricercatore"));
+            roleList.add(new JLabel("Associato"));
+            roleList.add(new JLabel("Ordinario"));
+        } else if (dipRadio.isSelected())
+            roleList.add(new JLabel("Segretario"));
+        panel.add(roleList);
         // Etichetta e campo di testo per lo stipendio
         JLabel salaryLabel = new JLabel("Stipendio:");
         salaryLabel.setBounds(10, 110, 80, 25);
@@ -113,25 +147,34 @@ public class UI {
             public void actionPerformed(ActionEvent e) {
                 String nome = userText.getText();
                 String email = emailText.getText();
-                String ruolo = roleText.getText();
-                double stipendio = Double.parseDouble(salaryText.getText());
+                String ruolo = roleList.getSelectedValue().toString();
+                double stipendio;
                 String materia = subjectText.getText();
                 String classe = classText.getText();
-                double mediaVoti = Double.parseDouble(gradeText.getText());
+                double mediaVoti;
+                if (!gradeText.getText().isEmpty() && !classe.isEmpty()) {
 
-                if (!materia.isEmpty()) {
-                    Docente docente = new Docente(nome, nome, email, ruolo, stipendio, materia);
-                    gestioneUtenti.aggiungiUtente(docente);
-                    resultArea.setText("Docente aggiunto: " + docente);
-                } else if (!classe.isEmpty()) {
+                    mediaVoti = Double.parseDouble(gradeText.getText());
                     Studente studente = new Studente(nome, nome, email, classe, mediaVoti);
                     gestioneUtenti.aggiungiUtente(studente);
                     resultArea.setText("Studente aggiunto: " + studente);
-                } else {
-                    Dipendente dipendente = new Dipendente(nome, nome, email, ruolo, stipendio);
-                    gestioneUtenti.aggiungiUtente(dipendente);
-                    resultArea.setText("Dipendente aggiunto: " + dipendente);
+                } else if (!salaryText.getText().isEmpty()) {
+                    stipendio = Double.parseDouble(salaryText.getText());
+
+                    if (!materia.isEmpty()) {
+
+                        Docente docente = new Docente(nome, nome, email, ruolo, stipendio, materia);
+                        gestioneUtenti.aggiungiUtente(docente);
+                        resultArea.setText("Docente aggiunto: " + docente);
+                    }
+
+                    else {
+                        Dipendente dipendente = new Dipendente(nome, nome, email, ruolo, stipendio);
+                        gestioneUtenti.aggiungiUtente(dipendente);
+                        resultArea.setText("Dipendente aggiunto: " + dipendente);
+                    }
                 }
+
             }
         });
 

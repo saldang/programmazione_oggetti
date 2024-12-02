@@ -1,0 +1,5 @@
+ID:DIP001
+Nome:Mario Rossi
+Email:mario.rossi@unicampania.it
+Ruolo:Segretario
+Stipendio:2000.0

@@ -13,7 +13,6 @@ Devi creare una gerarchia di classi che rappresenti diverse categorie di utenti:
 - **Classe astratta `Utente`**:
   - Attributi: `ID` (String), `nome` (String), `email` (String).
   - Metodo astratto `generaScheda()`, che crea e salva la scheda dell’utente in un file di testo.
-  - Metodo concreto `creaCartella(String path)` per creare la cartella corrispondente all’utente.
 - **Sottoclassi di `Utente`**:
   - **`Studente`**:
     - Attributi: `classe` (String), `mediaVoti` (double).

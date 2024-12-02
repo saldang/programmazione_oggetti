@@ -1,0 +1,6 @@
+ID:DOC001
+Nome:Mario Verdi
+Email:mario.verdi@unicampania.it
+Ruolo:Associato
+Stipendio:2000.0
+Materia:Programmazione Oggetti

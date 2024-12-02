@@ -1,4 +1,5 @@
 package model;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -6,8 +7,6 @@ import java.io.IOException;
 
 public class Docente extends Dipendente {
     private String materia;
-    private double stipendio;
-    private String ruolo;
 
     public Docente(String id, String nome, String email, String ruolo, double stipendio, String materia) {
         super(id, nome, email, ruolo, stipendio);
@@ -30,6 +29,7 @@ public class Docente extends Dipendente {
 
     @Override
     public String toString() {
-        return "ID: " + id + "\nNome: " + nome + "\nEmail: " + email + "\nRuolo: " + ruolo + "\nStipendio: " + stipendio + "\nMateria: " + materia;
+        return "ID: " + id + "\nNome: " + nome + "\nEmail: " + email + "\nRuolo: " + ruolo + "\nStipendio: " + stipendio
+                + "\nMateria: " + materia;
     }
 }

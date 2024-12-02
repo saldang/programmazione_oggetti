@@ -1,12 +1,13 @@
 package model;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
 public class Studente extends Utente {
-    private String classe;
-    private double mediaVoti;
+    public String classe;
+    public double mediaVoti;
 
     public Studente(String id, String nome, String email, String classe, double mediaVoti) {
         super(id, nome, email);
@@ -27,7 +28,8 @@ public class Studente extends Utente {
     }
 
     @Override
-    public String toString(){
-        return "ID: " + id + "\nNome: " + nome + "\nEmail: " + email + "\nClasse: " + classe + "\nMediaVoti: " + mediaVoti;
+    public String toString() {
+        return "ID: " + id + "\nNome: " + nome + "\nEmail: " + email + "\nClasse: " + classe + "\nMediaVoti: "
+                + mediaVoti;
     }
 }
