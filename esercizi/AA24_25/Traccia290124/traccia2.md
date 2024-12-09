@@ -4,8 +4,6 @@ title: "Traccia 29 Gennaio 2024"
 date: 2024-01-29
 ---
 
-# Esame 29/01/2024
-
 **Obiettivo:**
 L'obiettivo di questo esame è sviluppare un programma in Java per la gestione di uno stock di prodotti di tre tipi diversi. Il programma dovrà leggere i dati da un file CSV, utilizzando concetti di ereditarietà, interfacce e polimorfismo. Successivamente, i prodotti dovranno essere raggruppati sulla base di un attributo comune, scelto dall'utente, e il contenuto dovrà essere salvato su un file con il nome dell'attributo scelto. In alternativa, l'utente potrà scegliere un intervallo di valori per un attributo numerico e il contenuto degli oggetti che rientrano nell'intervallo dovrà essere salvato su un file con il nome dell'attributo e l'intervallo scelto.
 
