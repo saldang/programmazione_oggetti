@@ -1,0 +1,7 @@
+tipo,modello,marca,prezzo,colore,peso,memoria,processore,gpu,cancellazioneRumore
+Phone,iPhone 13,Apple,999,nero,200,128,Apple A15 Bionic,,,
+Phone,Galaxy S21,Samsung,899,nero,200,128,Exynos 2100,,,
+Computer,MacBook Pro,Apple,1999,grigio,1500,256,Intel Core i5,Intel Iris Xe,,
+Computer,ThinkPad X1 Carbon,Lenovo,1499,nero,1000,512,Intel Core i7,Intel Iris Xe,,
+Accessory,Auricolari,Sony,99,nero,50,,,,true
+Accessory,Mouse,Logitech,49,nero,100,,,,false
