@@ -1,5 +1,7 @@
 # Traccia 10 Dicembre 2024
 
+# saldang.github.io/programmazione_oggetti
+
 ## Sistema per la gestione di assets finanziari
 
 Si realizzi un sistema per la gestione di assets finanziari. Gli assets sono di due tipi: azioni e obbligazioni. Per le azioni si memorizzano il nome della società, il prezzo attuale e il prezzo di acquisto. Per le obbligazioni si memorizzano il nome dell'emittente, il tasso di interesse e il prezzo di acquisto. Si realizzi una classe astratta `Asset` con i metodi astratti `valore_attuale` e `guadagno`. Si realizzi poi una classe `Azione` e una classe `Obbligazione` che estendono `Asset`. Si realizzi infine una classe `Portafoglio` che contiene una lista di assets e che ha un metodo `valore_totale` che restituisce il valore totale del portafoglio e un metodo `guadagno_totale` che restituisce il guadagno totale del portafoglio.
@@ -18,6 +20,11 @@ Azione,Microsoft,2000,1500
 Azione,Amazon,3000,2500
 Obbligazione,Google,0.03,3000
 ```
+
+- Per le azioni il guadagno è dato dalla differenza tra il valore attuale e il prezzo di acquisto.
+- Per le obbligazioni il guadagno è dato dalla differenza tra il valore attuale e il prezzo di acquisto, moltiplicata per il tasso di interesse.
+- Il valore attuale di un'azione è dato dal prezzo attuale.
+- Il valore attuale di un'obbligazione è dato dal prezzo attuale moltiplicato per il tasso di interesse.
 
 ### Domande teoriche
 
