@@ -24,7 +24,7 @@ Obbligazione,Google,0.03,3000
 - Per le azioni il guadagno è dato dalla differenza tra il valore attuale e il prezzo di acquisto.
 - Per le obbligazioni il guadagno è dato dalla differenza tra il valore attuale e il prezzo di acquisto, moltiplicata per il tasso di interesse.
 - Il valore attuale di un'azione è dato dal prezzo attuale.
-- Il valore attuale di un'obbligazione è dato dal prezzo attuale moltiplicato per il tasso di interesse.
+- Il valore attuale di un'obbligazione è dato dal prezzo di acquisto moltiplicato per il tasso di interesse.
 
 ### Domande teoriche
 
