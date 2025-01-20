@@ -16,5 +16,6 @@ Libro di testo:
 
 ## Esami
 
+- [2025]({{site.baseurl}}/esami/2025/)
 - [2024]({{site.baseurl}}/esami/2024/)
 - [2023]({{site.baseurl}}/esami/2023/)
