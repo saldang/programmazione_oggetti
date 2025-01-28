@@ -64,7 +64,7 @@ Il gioco consiste in una serie di domande a scelta multipla, dove il giocatore d
 ```csv
 Numero Domanda,Tipo Domanda,Quesito,A,B,C,D,Risposta Corretta,Punteggio
 "1","MC","Cosa è un 'classe' in OOP?","Una singola istanza di un oggetto","Un gruppo di metodi senza attributi","Una definizione di tipo che può essere utilizzata per creare oggetti","Uno stato fisso dell'applicazione","c","3"
-"2","MC","Che cos'è un 'oggetto' in OOP?","Un gruppo di variabili statiche","Una collezione di metodi pubblici","Una singola istanza di una classe","Il file sorgente di un programma",c,3
+"2","MC","Che cos'è un 'oggetto' in OOP?","Un gruppo di variabili statiche","Una collezione di metodi pubblici","Una singola istanza di una classe","Il file sorgente di un programma","c","3"
 "3","MC","Che cos'è l''incapsulamento'?","La capacità di un oggetto di assumere diversi comportamenti","Il modo in cui gli oggetti sono organizzati in gerarchie","L'abbinamento dei dati e del codice che li manipola all'interno dello stesso oggetto","Nascondere dettagli interni di implementazione","c","3"
 "4","MC","Cos'è l'ereditarietà in OOP?","Il processo di creazione di una nuova classe utilizzando esistenti classi come base","La capacità di un metodo di essere utilizzato con vari tipi di dati","L'organizzazione degli oggetti in gerarchie","Nascondere dettagli interni di implementazione","a","3"
 "5","MC","Qual è il termine usato per una classe che estende un'altra classe?","Superclasse","Sottoclasse","Interfaccia","Metaclass","b","3"
@@ -74,3 +74,14 @@ Numero Domanda,Tipo Domanda,Quesito,A,B,C,D,Risposta Corretta,Punteggio
 "9","MC","Qual è il ruolo principale delle interfacce in Java?","Per definire comportamenti che possono essere implementate da classi","Per creare istanze di oggetti","Per organizzare le classi in una gerarchia","Per incapsulare i dati all'interno di una classe","a","3"
 "10","MC","Una classe può implementare più interfacce?","No, una classe può implementare solo un'interfaccia per volta.","Sì, ma non più di due interfacce","Sì, una classe può implementare qualsiasi numero di interfacce","Solo le classi astratte possono implementare interfacce","c","3"
 ```
+
+### Implementazione
+
+Files:
+
+- [Question.java](./Question.java)
+- [MultipleChoiceQuestion.java](./MultipleChoiceQuestion.java)
+- [Scorable.java](./Scorable.java)
+- [QuizGame.java](./QuizGame.java)
+- [Main.java](./Main.java)
+- [quiz.csv](./quiz.csv)
