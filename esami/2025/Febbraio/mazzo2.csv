@@ -1,0 +1,11 @@
+tipo,nome,descrizione,puntiVita,attacco,energiaNecessaria,tipoEnergia
+Pokemon,Vaporeon,Idropompa,70,25,2,
+Pokemon,Ivysaur,Foglielama,70,20,2,
+Energia,EnergiaAcqua,Acqua,,,,Acqua
+Energia,EnergiaErba,Erba,,,,Erba
+Pokemon,Raichu,Tuonobomba,90,30,3,
+Pokemon,Charizard,Vampata,120,50,3,
+Energia,EnergiaFuoco,Fuoco,,,,Fuoco
+Energia,EnergiaElettro,Elettro,,,,Elettro
+Pokemon,Blastoise,Idrocannone,100,40,3,
+Pokemon,Venusaur,Solarraggio,100,45,3,

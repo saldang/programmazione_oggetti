@@ -1,0 +1,11 @@
+tipo,nome,descrizione,puntiVita,attacco,energiaNecessaria,tipoEnergia
+Pokemon,Pikachu,Tuonoshock,60,20,1,
+Pokemon,Charmander,Braciere,50,15,1,
+Energia,EnergiaFuoco,Fuoco,,,,Fuoco
+Energia,EnergiaElettro,Elettro,,,,Elettro
+Pokemon,Bulbasaur,Frustata,60,10,1,
+Pokemon,Squirtle,Bolla,50,10,1,
+Energia,EnergiaAcqua,Acqua,,,,Acqua
+Energia,EnergiaErba,Erba,,,,Erba
+Pokemon,Jolteon,Tuono,70,25,2,
+Pokemon,Flareon,Lanciafiamme,70,30,2,
