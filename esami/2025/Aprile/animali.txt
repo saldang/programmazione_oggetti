@@ -1,0 +1,5 @@
+Drago;Smaug;300;120;true
+Unicorno;Stella;150;80;false
+Fenice;Fiamma;500;150
+Drago;Draconis;-20;110;true
+Unicorno;Arcobaleno;100;70;true

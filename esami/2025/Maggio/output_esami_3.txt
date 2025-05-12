@@ -1,0 +1,7 @@
+Esame: Basi di Dati (Laboratorio)
+Docente: Prof. Azzurri
+Voto: 29
+Descrizione: Esame di laboratorio con progetto non consegnato.
+Peso: 23.20
+
+Media ponderata: 23.20

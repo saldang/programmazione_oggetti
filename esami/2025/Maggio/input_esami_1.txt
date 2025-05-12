@@ -1,0 +1,3 @@
+EsameOrale;Analisi I;Prof. Verdi;28;45
+EsameScritto;Programmazione;Prof. Bianchi;30;20
+EsameLaboratorio;Reti;Prof. Neri;26;true

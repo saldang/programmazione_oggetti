@@ -1,0 +1,3 @@
+Nome: Smaug, Età: 300, Velocità Base: 120.0
+Nome: Stella, Età: 150, Velocità Base: 80.0
+Nome: Fiamma, Età: 500, Velocità Base: 150.0

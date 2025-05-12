@@ -1,0 +1,19 @@
+Esame: Analisi I (Orale)
+Docente: Prof. Verdi
+Voto: 28
+Descrizione: Esame orale di durata 45 minuti.
+Peso: 21.00
+
+Esame: Programmazione (Scritto)
+Docente: Prof. Bianchi
+Voto: 30
+Descrizione: Esame scritto con 20 domande.
+Peso: 89.91
+
+Esame: Reti (Laboratorio)
+Docente: Prof. Neri
+Voto: 26
+Descrizione: Esame di laboratorio con progetto consegnato.
+Peso: 39.00
+
+Media ponderata: 29.18
