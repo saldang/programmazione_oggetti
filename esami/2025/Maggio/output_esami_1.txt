@@ -8,7 +8,7 @@ Esame: Programmazione (Scritto)
 Docente: Prof. Bianchi
 Voto: 30
 Descrizione: Esame scritto con 20 domande.
-Peso: 89.91
+Peso: 89.87
 
 Esame: Reti (Laboratorio)
 Docente: Prof. Neri
@@ -16,4 +16,4 @@ Voto: 26
 Descrizione: Esame di laboratorio con progetto consegnato.
 Peso: 39.00
 
-Media ponderata: 29.18
+Media ponderata: 28.65
