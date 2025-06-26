@@ -41,8 +41,8 @@ Il sistema dovrà essere implementato sfruttando ereditarietà, polimorfismo, in
 
    ```java
    public interface GestioneDati {
-       void salva(String percorso) throws IOException;
-       void carica(String percorso) throws IOException;
+       void salva(String percorso);
+       void carica(String percorso);
    }
     ```
 
@@ -123,7 +123,7 @@ Incasso vendite: 8.49€
 - Utilizzo LocalDate per gestire le date:
 
 ```java
-// Data corrente e piu 7 giorni (per il prestito)
+// Data corrente e piu 7 giorni (per il prestito),verifica che la data sia precedente o successiva
 import java.time.LocalDate;
 public class EsempioData {
     public static void main(String[] args) {
@@ -131,6 +131,10 @@ public class EsempioData {
         System.out.println("Data corrente: " + data);
         LocalDate dataFutura = data.plusDays(7);
         System.out.println("Data tra 7 giorni: " + dataFutura);
+        LocalDate dataPassata = data.minusDays(7);
+        System.out.println("Data passata di 7 giorni: " + dataPassata);
+        System.out.println("La data futura è dopo la data corrente? " + dataFutura.isAfter(data));
+        System.out.println("La data passata è prima della data corrente? " + dataPassata.isBefore(data));
     }
 }
 ```
