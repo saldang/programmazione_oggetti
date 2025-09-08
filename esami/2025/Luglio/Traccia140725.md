@@ -54,7 +54,7 @@ Il sistema deve gestire:
 
 - **Lettura corsi** da file CSV con formato:
 
-  ```
+  ```txt
   nome,tipo,istruttore,durata,maxPartecipanti,costo,parametro1,parametro2
   Spinning,CARDIO,Mario Rossi,45,20,25.0,4,cyclette
   Sollevamento,FORZA,Luigi Bianchi,60,15,30.0,100,8
@@ -63,7 +63,7 @@ Il sistema deve gestire:
 
 - **Scrittura report** in CSV con statistiche:
 
-  ```
+  ```txt
   corso,istruttore,partecipanti,incasso,occupazione_percentuale
   Spinning,Mario Rossi,18,450.0,90.0
   Sollevamento,Luigi Bianchi,12,360.0,80.0
@@ -163,7 +163,7 @@ public class GestorePalestra {
 
 ### Esempio di Output Atteso
 
-```
+```txt
 === CORSI DISPONIBILI ===
 Spinning (Cardio) - Istruttore: Mario Rossi
 Durata: 45 min, Costo: 25.0€, Posti: 18/20
