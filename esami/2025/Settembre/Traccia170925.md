@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Traccia Esame - Sistema Gestione Ristorante"
+title: "Traccia 17 Settembre 2025"
 date: 2025-09-16
 ---
 
