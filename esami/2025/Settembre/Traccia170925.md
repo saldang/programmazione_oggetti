@@ -202,3 +202,5 @@ Mascarpone e caffe - Tempo: 5 min - Servizio: freddo
 TOTALE: €36.00
 Tempo stimato: 20 minuti
 ```
+
+Per la consegna dell'esame caricare la cartella al seguente link: [Settembre 2025](https://uninadue.sharepoint.com/:f:/r/sites/v.msteams_20240910113621/Documenti%20condivisi/Esami/Settembre%202025?csf=1&web=1&e=HxYb8N)
