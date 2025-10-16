@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Traccia Esame - 16 Ottobre 2025"
+title: "16 Ottobre 2025"
 date: 2025-10-16
 ---
 
-## Sistema di Gestione di un Parco Veicoli 🚗**
+## Sistema di Gestione di un Parco Veicoli 🚗
 
 Sviluppare un'applicazione in Java per la gestione del parco veicoli di una società di noleggio. Il sistema deve essere in grado di gestire diverse tipologie di veicoli, calcolare i costi di noleggio, gestire la manutenzione e salvare lo stato del parco veicoli su file di testo.
 
-### **Sezione 1: Struttura delle Classi (Ereditarietà e Classi Astratte)**
+### Sezione 1: Struttura delle Classi (Ereditarietà e Classi Astratte)
 
 1. **Classe Astratta `Veicolo`:**
     Creare una classe astratta `Veicolo` che rappresenti le proprietà e i comportamenti comuni a tutti i veicoli. La classe deve avere i seguenti attributi `protected`:
@@ -43,7 +43,7 @@ Sviluppare un'applicazione in Java per la gestione del parco veicoli di una soci
           * Implementazione del metodo `calcolaCostoNoleggio(int giorni)`: Al costo totale viene aggiunto un supplemento fisso di 20.50 € per ogni giorno di noleggio, indipendentemente dalla durata.
           * Override del metodo `toString()` che aggiunga le informazioni specifiche del furgone.
 
-### **Sezione 2: Interfacce e Polimorfismo**
+### Sezione 2: Interfacce e Polimorfismo
 
 1. **Interfaccia `Manutenibile`:**
     Creare un'interfaccia `Manutenibile` che definisca i comportamenti legati alla manutenzione dei veicoli. L'interfaccia deve dichiarare i seguenti metodi:
@@ -64,7 +64,7 @@ Sviluppare un'applicazione in Java per la gestione del parco veicoli di una soci
       * Per `Automobile`: necessita di manutenzione se l'anno di immatricolazione è antecedente al 2020.
       * Per `Furgone`: necessita di manutenzione se la sua capacità di carico supera i 1000 kg.
 
-### **Sezione 3: Gestione delle Eccezioni**
+### Sezione 3: Gestione delle Eccezioni
 
 1. **Eccezione Personalizzata `TargaInvalidaException`:**
     Creare una *checked exception* personalizzata chiamata `TargaInvalidaException` che estende `Exception`. Questa eccezione verrà lanciata quando si tenta di creare un veicolo con una targa non valida.
@@ -73,7 +73,7 @@ Sviluppare un'applicazione in Java per la gestione del parco veicoli di una soci
     Modificare il costruttore della classe `Veicolo` in modo che validi il formato della targa. Una targa è considerata valida se è composta da 7 caratteri alfanumerici (es. "AB123CD").
     Se la targa non è valida, il costruttore deve lanciare una `TargaInvalidaException`.
 
-### **Sezione 4: Lettura e Scrittura su File**
+### Sezione 4: Lettura e Scrittura su File
 
 1. **Classe `GestioneParcoVeicoli`:**
     Creare una classe `GestioneParcoVeicoli` che gestisca una collezione di veicoli.
@@ -99,7 +99,7 @@ Sviluppare un'applicazione in Java per la gestione del parco veicoli di una soci
               * Ogni targa deve essere scritta su una nuova riga.
               * Deve gestire eventuali `IOException` durante la scrittura.
 
-### **Sezione 5: Classe Main di Test**
+### Sezione 5: Classe Main di Test
 
 Creare una classe `Main` con un metodo `main` che dimostri il funzionamento di tutte le funzionalità implementate.
 
