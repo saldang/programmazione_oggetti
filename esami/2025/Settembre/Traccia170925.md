@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Traccia 17 Settembre 2025"
-date: 2025-09-16
+date: 2025-09-17
 ---
 
 ## Sistema di Gestione Ristorante e Delivery
@@ -202,4 +202,3 @@ Mascarpone e caffe - Tempo: 5 min - Servizio: freddo
 TOTALE: €36.00
 Tempo stimato: 20 minuti
 ```
-
