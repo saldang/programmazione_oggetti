@@ -12,7 +12,7 @@ public class GestioneUtenti {
     private ArrayList<Utente> utenti;
 
     public GestioneUtenti() {
-        utenti = new ArrayList<>();
+        utenti = new ArrayList<Utente>();
     }
 
     public void aggiungiUtente(Utente utente) {

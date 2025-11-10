@@ -7,9 +7,9 @@ public class App {
         Dottore d2 = new Dottore("Antonio", "dentista", 150.0);
 
         Fattura f1 = new Fattura(p1, d2);
-        Fattura f2 = new Fattura(p2, d1);
+        Fattura f2 = new Fattura(p2, d2);
 
-        
+
         double guadagnoTotale = 0;
 
         guadagnoTotale += f1.getDottore().getParcella();

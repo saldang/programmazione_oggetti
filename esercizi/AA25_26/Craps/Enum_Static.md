@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Esercizio Enum e Static
-permalink: /esercizi/AA24_25/Cap2_2/
+permalink: /esercizi/AA25_26/Cap2_2/
 ---
 
 ## {{page.title}}
