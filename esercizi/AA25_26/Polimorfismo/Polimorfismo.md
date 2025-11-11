@@ -19,3 +19,15 @@ Per ogni oggetto di tal tipo deve essere possibile richiedere le informazioni ri
 Per tutti le informazioni base sono nome e cognome
 
 In più per adulto e ragazzo è necessaria la carta d’identità, per il bambino età ed i nomi dei genitori.
+
+## Classi
+
+- [Camera](Camera.java)
+- [CameraLusso](CameraLusso.java)
+- [CameraNormale](CameraNormale.java)
+- [Cliente](Cliente.java)
+- [Hotel](Hotel.java)
+- [Bambino](Bambino.java)
+- [Ragazzo](Ragazzo.java)
+- [Adulto](Adulto.java)
+- [HasTV](HasTV.java)
