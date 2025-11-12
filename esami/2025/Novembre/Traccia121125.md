@@ -6,7 +6,7 @@ date: 2025-11-12
 
 ## Sistema di Gestione di un Albergo 🏨
 
-Sviluppare un sistema di gestione per un albergo che permetta di gestire camere di diverse tipologie, clienti con esigenze differenti e le loro prenotazioni. Il programma deve utilizzare i concetti fondamentali di OOP.
+Sviluppare un sistema di gestione per un albergo che permetta di gestire camere di diverse tipologie, clienti e le loro prenotazioni. Il programma deve utilizzare i concetti fondamentali di OOP.
 
 ### 1. EREDITA' E CLASSI ASTRATTE
 
@@ -48,7 +48,7 @@ Tutte le camere devono implementare `Prenotabile` e `Pagabile`.
 
 ### Classi da implementare
 
-```
+```bash
 Camera (classe astratta)
 ├── CameraSingola
 ├── CameraMatrimoniale
@@ -62,31 +62,6 @@ Prenotazione
 Albergo (classe principale di gestione)
 HotelMain (classe con main per i test)
 ```
-
-### Eccezioni personalizzate
-
-#### CameraOccupatException
-
-- **Utilizzata quando**: si tenta di prenotare una camera che non è disponibile (già occupata)
-- **Messaggio suggerito**: "La camera numero X è già occupata per le date richieste"
-
-#### ClienteNonValidoException
-
-- **Utilizzata quando**: i dati del cliente non rispettano i criteri di validazione
-- **Costruttore**:
-
-  ```java
-  public ClienteNonValidoException(String messaggio, String campo)
-  ```
-
-- **Campi di validazione falliti**:
-  - "NOME" - se nome non valido
-  - "COGNOME" - se cognome non valido
-  - "EMAIL" - se email non valida
-  - "TELEFONO" - se telefono non valido
-- **Messaggio suggerito**: "Errore nel campo CAMPO: messaggio specifico"
-  - Es: "Errore nel campo EMAIL: formato email non valido"
-  - Es: "Errore nel campo NOME: deve contenere almeno 2 caratteri"
 
 ### Classe Camera (astratta)
 
@@ -187,6 +162,30 @@ HotelMain (classe con main per i test)
   - `visualizzaPrenotazioni()`
   - `visualizzaTutteCamera()`
 
+### Eccezioni personalizzate
+
+#### CameraOccupatException
+
+- **Utilizzata quando**: si tenta di prenotare una camera che non è disponibile (già occupata)
+- **Messaggio suggerito**: "La camera numero X è già occupata per le date richieste"
+
+#### ClienteNonValidoException
+
+- **Utilizzata quando**: i dati del cliente non rispettano i criteri di validazione
+- **Costruttore**:
+
+  ```java
+  public ClienteNonValidoException(String messaggio, String campo)
+  ```
+
+- **Campi di validazione falliti**:
+  - "NOME" - se nome non valido
+  - "COGNOME" - se cognome non valido
+  - "EMAIL" - se email non valida
+- **Messaggio suggerito**: "Errore nel campo CAMPO: messaggio specifico"
+  - Es: "Errore nel campo EMAIL: formato email non valido"
+  - Es: "Errore nel campo NOME: deve contenere almeno 2 caratteri"
+
 ### Classe HotelMain
 
 Implementare un programma di test che:
@@ -195,7 +194,7 @@ Implementare un programma di test che:
 
 2. **Crea 4 clienti di test**:
    - Cliente 1: valido (es: "Mario Rossi", "<mario@email.com>", "3201234567")
-   - Cliente 2: valido (es: "Anna Bianchi", "<anna@email.com>", "+39 320 123 4567")
+   - Cliente 2: valido (es: "Anna Bianchi", "<anna@email.com>", "3331234567")
    - Cliente 3: valido (es: "Giovanni Ferrari", "<giovanni@email.com>", "3209876543")
    - Cliente 4: NON valido (testare eccezione, es: nome vuoto, email senza @)
 
@@ -222,7 +221,7 @@ Implementare un programma di test che:
 
 **Output atteso**:
 
-```
+```bash
 ==== SISTEMA ALBERGO ====
 [Creazione albergo e 5 camere]
 [Creazione clienti]
