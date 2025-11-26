@@ -1,0 +1,7 @@
+marca,modello,anno,tipo,cilindrata,prezenzaAntibloccaggio,prezenzaAssistenzaElettrica,colore, valore
+Toyota,Corolla,2020,automobile,1800,true,true,rosso,28000
+Honda,Civic,2018,automobile,2000,false,false,blu,25000
+Ducati,Panigale V4,2021,motocicletta,1103,true,false,rosso,22000
+Harley-Davidson,Sportster S,2022,motocicletta,1252,false,false,nero,21000
+Trek,Domane SL 6,2023,bicicletta,,false,true,grigio,3500
+Cannondale,CAAD13,2022,bicicletta,,false,false,bianco,3000

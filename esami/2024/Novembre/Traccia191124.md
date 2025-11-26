@@ -33,11 +33,11 @@
      - Caricare la lista di veicoli da un file csv
 
 ```csv
-marca,modello,anno,tipo,dimensioneMotore,prezenzaInterni,cilindrata,prezenzaAntibloccaggio,prezenzaAssistenzaElettrica,colore
-Toyota,Corolla,2020,automobile,1800,vero,,,falso,rosso
-Honda,Civic,2018,automobile,2000,falso,,,falso,blu
-Ducati,Panigale V4,2021,motocicletta,,falso,1103,vero,falso,rosso
-Harley-Davidson,Sportster S,2022,motocicletta,,falso,1252,falso,falso,nero
-Trek,Domane SL 6,2023,bicicletta,,falso,,falso,vero,grigio
-Cannondale,CAAD13,2022,bicicletta,,falso,,falso,falso,bianco
+marca,modello,anno,tipo,cilindrata,prezenzaAntibloccaggio,prezenzaAssistenzaElettrica,colore, valore
+Toyota,Corolla,2020,automobile,1800,true,true,rosso,28000
+Honda,Civic,2018,automobile,2000,false,false,blu,25000
+Ducati,Panigale V4,2021,motocicletta,1103,true,false,rosso,22000
+Harley-Davidson,Sportster S,2022,motocicletta,1252,false,false,nero,21000
+Trek,Domane SL 6,2023,bicicletta,,false,true,grigio,3500
+Cannondale,CAAD13,2022,bicicletta,,false,false,bianco,3000
 ```
