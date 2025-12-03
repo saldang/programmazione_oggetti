@@ -69,9 +69,9 @@ Il sistema dovrà essere implementato sfruttando ereditarietà, polimorfismo, in
     - Elenco di Transazione
     - Aggiunta di nuove vendite / prestiti
     - Statistiche:
-    - totale incassato dalle vendite
-    - numero di prestiti attivi e conclusi
-    - materiale più richiesto
+      - totale incassato dalle vendite
+      - numero di prestiti attivi e conclusi
+      - materiale più richiesto
     - Visualizzazione delle transazioni in corso e archiviate
  4. GestioneTransazioni implementa GestioneDati
     - Log delle transazioni su file di testo in formato leggibile
@@ -85,9 +85,9 @@ Il sistema dovrà essere implementato sfruttando ereditarietà, polimorfismo, in
  3. Creazione di prestiti e vendite
  4. Calcolo delle statistiche (incassi, numero prestiti, ecc.)
  5. Salvataggio dei log delle transazioni in transazioni.txt
- 6. Verifica delle eccezioni (FormatoFileException, MaterialeNonDisponibileException)
+ 6. Verifica delle eccezioni (FormatoFileException - file materiale non csv, MaterialeNonDisponibileException)
 
-File di esempio per i Materiali (materiali.txt)
+File di esempio per i Materiali (materiali.csv)
 
 ```text
 tipo,codice,titolo,anno,genere,prezzo,autore,pagine,ISBN,formato,dimensione,drm
@@ -114,7 +114,7 @@ Metodo pagamento: Carta di credito
 STATISTICHE:
 Prestiti attivi: 1
 Prestiti conclusi: 0
-Materiali venduti: 1
+Materiali venduti: Lo Hobbit, Dark Side of the Moon
 Incasso vendite: 8.49€
 ```
 
@@ -139,3 +139,17 @@ public class EsempioData {
 }
 ```
 
+Files:
+
+- [materiali.csv](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/materiali.csv)
+- [BibliotecaTest.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/BibliotecaTest.java)
+- [Catalogo.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/Catalogo.java)
+- [GestioneDati.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/GestioneDati.java)
+- [GestioneTransazioni.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/GestioneTransazioni.java)
+- [Materiale.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/Materiale.java)
+- [MaterialeCartaceo.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/MaterialeCartaceo.java)
+- [MaterialeDigitale.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/MaterialeDigitale.java)
+- [MaterialeNonDisponibileException.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/MaterialeNonDisponibileException.java)
+- [Prestito.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/Prestito.java)
+- [Transazione.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/Transazione.java)
+- [Vendita.java](file:///Users/saldang/Developments/programmazione_oggetti/esercizi/AA25_26/Traccia260625/Vendita.java)

@@ -1,0 +1,5 @@
+tipo,codice,titolo,anno,genere,prezzo,autore,pagine,ISBN,formato,dimensione,drm
+MaterialeCartaceo,B001,Il Nome della Rosa,1980,Storico,12.9,Umberto Eco,512,9788845240798,,,
+MaterialeDigitale,D101,Lo Hobbit,1937,Fantasy,7.99,,,,"EPUB",2.3,false
+MaterialeDigitale,D102,Dark Side of the Moon,1973,Musica,9.99,,,,"MP3",120.0,true
+MaterialeDigitale,D103,asdasd,1920,null,12.9,,,,Mp3,220.5,true
