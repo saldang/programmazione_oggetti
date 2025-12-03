@@ -6,7 +6,7 @@ date: 2025-06-26
 
 ## Sistema di Gestione Biblioteca Multimediale
 
-Si richiede di sviluppare un sistema per la gestione di una biblioteca che offra **prestiti** e **vendite** di materiale cartageo e digitale.
+Si richiede di sviluppare un sistema per la gestione di una biblioteca che offra **prestiti** e **vendite** di materiale cartaceo e digitale.
 Il sistema dovrà essere implementato sfruttando ereditarietà, polimorfismo, interfacce e gestione delle eccezioni; dovrà inoltre salvare/caricare dati da file di testo.
 
 ### Parte 1: Gestione dei Materiali
@@ -142,7 +142,7 @@ public class EsempioData {
 Files:
 
 - [materiali.csv](materiali.csv)
-- [BibliotecaTest.java](BibliotecaTest.java)
+- [Biblioteca.java](Biblioteca.java)
 - [Catalogo.java](Catalogo.java)
 - [GestioneDati.java](GestioneDati.java)
 - [GestioneTransazioni.java](GestioneTransazioni.java)

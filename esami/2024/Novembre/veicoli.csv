@@ -1,4 +1,4 @@
-marca,modello,anno,tipo,cilindrata,prezenzaAntibloccaggio,prezenzaAssistenzaElettrica,colore, valore
+marca,modello,anno,tipo,cilindrata,prezenzaAntibloccaggio,presenzaAssistenzaElettrica,colore, valore
 Toyota,Corolla,2020,automobile,1800,true,true,rosso,28000
 Honda,Civic,2018,automobile,2000,false,false,blu,25000
 Ducati,Panigale V4,2021,motocicletta,1103,true,false,rosso,22000

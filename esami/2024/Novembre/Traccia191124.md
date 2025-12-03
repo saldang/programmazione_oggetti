@@ -9,7 +9,7 @@
    - Implementa i metodi astratti in ciascuna classe concreta di veicoli, tenendo conto dei fattori specifici che influenzano il valore di mercato (ogni anno fa scendere il valore di mercato  di una percentuale variabile a seconda del tipo di veicolo) e le informazioni da visualizzare per ogni tipo di veicolo.
 
 2. **Interfaccia Guidabile**
-   - Crea un'interfaccia chiamata `Guidabile` con metodi `accelera(double quantita)`, `frena(double quantita)` e `getTotaleDistanza()`.
+   - Crea un'interfaccia chiamata `Guidabile` con metodi `accelera(double secondi)`, `frena(double secondi)` e `getTotaleDistanza()`.
    - Modifica le classi `Automobile` e `Motocicletta` per implementare l'interfaccia `Guidabile`.
    - Implementa i metodi dell'interfaccia in ciascuna classe, tenendo traccia della distanza totale percorsa da ciascun veicolo.
 
@@ -36,8 +36,8 @@
 marca,modello,anno,tipo,cilindrata,prezenzaAntibloccaggio,prezenzaAssistenzaElettrica,colore, valore
 Toyota,Corolla,2020,automobile,1800,true,true,rosso,28000
 Honda,Civic,2018,automobile,2000,false,false,blu,25000
-Ducati,Panigale V4,2021,motocicletta,1103,true,false,rosso,22000
-Harley-Davidson,Sportster S,2022,motocicletta,1252,false,false,nero,21000
-Trek,Domane SL 6,2023,bicicletta,,false,true,grigio,3500
-Cannondale,CAAD13,2022,bicicletta,,false,false,bianco,3000
+Ducati,Panigale V4,2021,motocicletta,1103,true,,rosso,22000
+Harley-Davidson,Sportster S,2022,motocicletta,1252,false,,nero,21000
+Trek,Domane SL 6,2023,bicicletta,,,true,grigio,3500
+Cannondale,CAAD13,2022,bicicletta,,,false,bianco,3000
 ```
