@@ -1,0 +1,15 @@
+Prestito:
+	Luca Verdi luca@email.com BIB001234 2025-12-15
+	Romanzo: Cime Tempestose,Emily Brontë,1847,Romantico,416,978-88-04-52395-8,Singolo,Disponibile
+	Scadenza: 2026-01-05
+	Penale:2.5
+Prestito:
+	Sara Neri sara@email.com BIB005678 2025-12-15
+	Manuale: Anatomia Umana,Frank H. Netter,2018,Medicina,8,978-88-08-42156-7,Universitario,Disponibile
+	Scadenza: 2026-01-14
+	Penale:4.5
+Prestito:
+	Paolo Bianchi paolo@email.com BIB009012 2025-12-15
+	Rivista: National Geographic Italia,Various Authors,2025,Mensile,245,Novembre,ISSN-1234-5678,con Allegato,Disponibile
+	Scadenza: 2025-12-22
+	Penale:0.72

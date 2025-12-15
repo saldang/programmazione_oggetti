@@ -227,3 +227,18 @@ Restituzione rivista: 2 giorni ritardo → Penale: €0.72 (con maggiorazione al
 [Visualizzazione dettagli di tutti i libri]
 ==== FINE TEST ====
 ```
+
+File:
+
+* [Biblioteca.java](./Biblioteca.java)
+* [BibliotecaTest.java](./BibliotecaTest.java)
+* [Libro.java](./Libro.java)
+* [Prestabile.java](./Prestabile.java)
+* [Valutabile.java](./Valutabile.java)
+* [Romanzo.java](./Romanzo.java)
+* [Manuale.java](./Manuale.java)
+* [Rivista.java](./Rivista.java)
+* [Utente.java](./Utente.java)
+* [UtenteNonValidoException.java](./UtenteNonValidoException.java)
+* [Prestito.java](./Prestito.java)
+* [Libri.csv](./libri.csv)

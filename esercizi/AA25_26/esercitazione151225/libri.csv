@@ -1,0 +1,9 @@
+tipo,isbn,titolo,autore,annoPubblicazione,disponibile,genere,numeroPagine,saga,argomento,edizione,universitario,periodicita,numeroEdizione,mese,conAllegato
+Romanzo,978-88-04-66892-1,Il Nome della Rosa,Umberto Eco,1980,true,Storico,503,,,,,,,,
+Romanzo,978-88-58-13754-2,Harry Potter e la Pietra Filosofale,J.K. Rowling,1997,true,Fantasy,302,true,,,,,,,
+Romanzo,978-88-04-52395-8,Cime Tempestose,Emily Brontë,1847,true,Romantico,416,,,,,,,,
+Manuale,978-88-38-78945-3,Fondamenti di Programmazione Java,Herbert Schildt,2020,true,,,,Informatica,12,true,,,,
+Manuale,978-88-08-42156-7,Anatomia Umana,Frank H. Netter,2018,true,,,,Medicina,8,true,,,,
+Manuale,978-88-79-59847-2,Guida Completa alla Fotografia Digitale,Scott Kelby,2019,true,,,,Fotografia,3,false,,,,
+Rivista,ISSN-1234-5678,National Geographic Italia,Various Authors,2025,true,,,,,,,Mensile,245,Novembre,true
+Rivista,ISSN-8765-4321,Focus,Various Authors,2025,true,,,,,,,Settimanale,52,Dicembre,false
