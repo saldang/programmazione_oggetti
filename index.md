@@ -12,8 +12,8 @@ Libro di testo:
 
 ## Esercitazioni
 
-- [2024/2025]({{site.baseurl}}/esercizi/AA24_25/)
-- [2025/2026]({{site.baseurl}}/esercizi/AA25_26/)
+<!-- - [2024/2025]({{site.baseurl}}/esercizi/AA24_25/)
+- [2025/2026]({{site.baseurl}}/esercizi/AA25_26/) -->
 
 ## Esami
 
